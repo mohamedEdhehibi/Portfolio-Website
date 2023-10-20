@@ -1,0 +1,214 @@
+/* Google Font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+
+/* Custom CSS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+::selection {
+  color: black;
+  background-color: #bea060;
+}
+header {
+  width: 100%;
+  height: 160vh;
+  background-color: black;
+  display: flex;
+}
+.header-left-side {
+  padding: 0 0 0 90px;
+  color: white;
+}
+.header-left-side h1 {
+  color: #bea060;
+  line-height: 1.2em;
+  font-size: 78px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400 !important;
+}
+.header-left-side h2 {
+  color: #bea060;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  line-height: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+.header-left-side p {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: #c1bfbf;
+  line-height: 2;
+}
+button {
+  padding: 20px 10px;
+  border: 2px solid #bea060;
+  background: transparent;
+  width: 47%;
+  color: white;
+  margin-right: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #bea060;
+  transition: 0.7s;
+}
+.btn {
+  width: 97%;
+  background-color: #bea060;
+}
+.header-left-side h3 {
+  color: #c1bfbf;
+  padding-top: 80px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+.header-right-side img {
+  width: 670px;
+  height: 884px;
+  margin-top: 15%;
+}
+/* start menu */
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+  background: #212121;
+  font-size: 22px;
+  line-height: 32px;
+  color: #ffffff;
+  word-wrap: break-word !important;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #FFF;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #FFF;
+}
+
+h3 a {
+  color: #FFF;
+}
+
+a {
+  color: #FFF;
+}
+
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Bree Serif', 'serif';
+}
+
+#container {
+  margin: 0 auto;
+}
+
+p {
+  text-align: left;
+}
+
+nav {
+  margin: 50px 0;
+  background-color: #E64A19;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 40px;
+
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: #E64A19;
+}
+
+nav a {
+  display: block;
+  padding: 0 10px;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #000000;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+  /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover>ul {
+  display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 170px;
+}
+
+
+/* Change this in order to change the Dropdown symbol */
+li>a:after {
+  content: ' +';
+}
+
+li>a:only-child:after {
+  content: '';
+}
+/* end menu */
+
